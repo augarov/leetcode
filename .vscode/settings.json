@@ -1,0 +1,4 @@
+{
+    "clangd.enable": false,
+    "github.copilot.editor.enableAutoCompletions": false
+}
