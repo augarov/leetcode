@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "leetcode.vscode-leetcode"
+        "leetcode.vscode-leetcode",
+        "xaver.clang-format"
     ]
 }
