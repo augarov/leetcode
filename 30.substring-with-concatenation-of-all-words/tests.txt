@@ -1,0 +1,16 @@
+"barfoothefoobarman"
+["foo","bar"]
+"wordgoodgoodgoodbestword"
+["word","good","best","word"]
+"barfoofoobarthefoobarman"
+["bar","foo","the"]
+"aaaaaaaaa"
+["aaa", "aaa"]
+"ababababab"
+["abab","abab"]
+"abab"
+["ab"]
+"abcabcabc"
+["ab","ca"]
+"mississippi"
+["mississippis"]
