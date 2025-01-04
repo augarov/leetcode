@@ -1,7 +1,6 @@
-
-""abc"
+"abc"
 "ahbgdc"
 "abc"
 "ahbgdce"
 "acb"
-"ahbgdc""
+"ahbgdc"
