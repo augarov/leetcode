@@ -37,7 +37,11 @@ case "${MODE}" in
             ${CMD} test ${SOLUTION}
         fi
 
-
+        exit $?
+        ;;
+    submit)
+        echo "Submitting solution ${SOLUTION}..."
+        ${CMD} submit ${SOLUTION}
         exit $?
         ;;
     *)

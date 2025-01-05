@@ -1,8 +1,12 @@
 curr_dir := invocation_dir_native()
 run_leetcode := "scripts/run_leetcode_cli.sh"
 
-test target="": (_run "test" target)
+test path="": (_run "test" path)
 
-_run mode target:
-	@if [ -z "{{target}}" ]; then echo "note: setting target directory as current"; fi
-	{{run_leetcode}} {{mode}} "{{curr_dir}}/{{target}}"
+submit path="": (_run "submit" path)
+
+_run mode path: && (_run_with_abspath mode join(curr_dir, path))
+	@if [ -z "{{path}}" ]; then echo "note: using the current directory as the target"; fi;
+
+_run_with_abspath mode abspath:
+	{{run_leetcode}} {{mode}} "{{abspath}}"
