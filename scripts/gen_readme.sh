@@ -6,21 +6,15 @@ TARGET_PATH=$(realpath "$1")
 if [ -f "${TARGET_PATH}" ]; then
     STATS_FILE="${TARGET_PATH}"
 else
-    echo "Invalid target path: ${TARGET_PATH}"
+    echo "Invalid target path: ${TARGET_PATH}" >&2
     exit 1
 fi
 
-echo "Fetching stats..."
-data=$(${CMD} stats)
-
-if [ $? -ne 0 ]; then
-    echo "Failed to fetch"
-    exit 1
-fi
-
+NL=$'\n'
 
 function extract_progress() {
-    echo "${data}" | grep -oE "${1}\s+[0-9]+/[0-9]+" | awk '{ print $2 }'
+    local data=$1
+    echo "${data}" | grep -oE "${2}\s+[0-9]+/[0-9]+" | awk '{ print $2 }'
 }
 
 function make_progress_badge() {
@@ -32,26 +26,59 @@ function make_progress_badge() {
     echo "![${label} ${progress}](https://progress-bar.xyz/${curr}?title=${label}%20&scale=${total}&suffix=%20%2F%20${total}&progress_color=4B9E46&color=000000&progress_number_color=${color}&width=200)"
 }
 
-easy_progress=$(extract_progress "Easy")
-echo "Easy progress: ${easy_progress}"
-easy_badge=$(make_progress_badge "easy" "21FF0A" $easy_progress)
+function badges_by_category() {
+    if [[ $# -lt 1 ]]; then
+        local category="all"
+        echo "Fetching totals..." >&2
+        local data=$(${CMD} stats)
+    else
+        local category="$1"
+        echo "Fetching stats for '$category'..." >&2
+        local data=$(${CMD} stats -t ${category})
+    fi
 
-medium_progress=$(extract_progress "Medium")
-echo "Medium progress: ${medium_progress}"
-medium_badge=$(make_progress_badge "medium" "F3F70B" $medium_progress)
+    if [ $? -ne 0 ]; then
+        echo "Failed to fetch" >&2
+        exit 1
+    fi
 
-hard_progress=$(extract_progress "Hard")
-echo "Hard progress: ${hard_progress}"
-hard_badge=$(make_progress_badge "hard" "FC4047" $hard_progress)
+    local easy_progress=$(extract_progress "${data}" "Easy")
+    echo "${category}-easy: ${easy_progress}" >&2
+    local easy_badge=$(make_progress_badge "easy" "21FF0A" $easy_progress)
 
-echo "Generatin ${STATS_FILE}"
+    local medium_progress=$(extract_progress "${data}" "Medium")
+    echo "${category}-medium: ${medium_progress}" >&2
+    local medium_badge=$(make_progress_badge "medium" "F3F70B" $medium_progress)
+
+    local hard_progress=$(extract_progress "${data}" "Hard")
+    echo "${category}-hard: ${hard_progress}" >&2
+    local hard_badge=$(make_progress_badge "hard" "FC4047" $hard_progress)
+
+    echo -e "${easy_badge}${NL}${medium_badge}${NL}${hard_badge}"
+}
+
+total_badges=$(badges_by_category)
+array_badges=$(badges_by_category "array")
+string_badges=$(badges_by_category "string")
+linked_list_badges=$(badges_by_category "linked-list")
+hashmap_badges=$(badges_by_category "hash-table")
+
+echo "Generating ${STATS_FILE}" >&2
 
 cat << EOF > ${STATS_FILE}
 # Hi, it's me having fun with LeetCode
-### Statistics
-${easy_badge}
-${medium_badge}
-${hard_badge}
+## Statistics
+### Total
+${total_badges}
+### By Category
+#### Array
+${array_badges}
+#### String
+${string_badges}
+#### Linked List
+${linked_list_badges}
+#### Hash Table
+${hashmap_badges}
 EOF
 
 exit $?
