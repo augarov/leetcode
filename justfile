@@ -1,3 +1,5 @@
+set dotenv-load
+
 curr_dir := invocation_dir_native()
 run_leetcode := "scripts/run_leetcode_cli.sh"
 gen_readme := "scripts/gen_readme.sh"
