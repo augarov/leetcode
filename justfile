@@ -8,6 +8,10 @@ test path="": (_run "test" path)
 
 submit path="": (_run "submit" path)
 
+testx pattern : (_find_and_run "test" pattern)
+
+submitx pattern : (_find_and_run "submit" pattern)
+
 update_readme:
 	{{gen_readme}} README.md
 
@@ -16,3 +20,6 @@ _run mode path: && (_run_with_abspath mode join(curr_dir, path))
 
 _run_with_abspath mode abspath:
 	{{run_leetcode}} {{mode}} "{{abspath}}"
+
+_find_and_run mode pattern :
+	{{run_leetcode}} {{mode}} $( fzf -q "/{{pattern}}/.cpp" )
