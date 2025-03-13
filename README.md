@@ -2,7 +2,7 @@
 ## Statistics
 ### Total
 ![easy 30/818](https://progress-bar.xyz/30?title=easy%20&scale=818&suffix=%20%2F%20818&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
-![medium 35/1776](https://progress-bar.xyz/35?title=medium%20&scale=1776&suffix=%20%2F%201776&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
+![medium 36/1776](https://progress-bar.xyz/36?title=medium%20&scale=1776&suffix=%20%2F%201776&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 6/800](https://progress-bar.xyz/6?title=hard%20&scale=800&suffix=%20%2F%20800&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
 ### By Category
 #### Array
@@ -25,3 +25,7 @@
 ![easy 4/35](https://progress-bar.xyz/4?title=easy%20&scale=35&suffix=%20%2F%2035&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
 ![medium 1/72](https://progress-bar.xyz/1?title=medium%20&scale=72&suffix=%20%2F%2072&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 0/18](https://progress-bar.xyz/0?title=hard%20&scale=18&suffix=%20%2F%2018&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
+#### Heap
+![easy 0/2](https://progress-bar.xyz/0?title=easy%20&scale=2&suffix=%20%2F%202&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
+![medium 1/17](https://progress-bar.xyz/1?title=medium%20&scale=17&suffix=%20%2F%2017&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
+![hard 1/15](https://progress-bar.xyz/1?title=hard%20&scale=15&suffix=%20%2F%2015&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
