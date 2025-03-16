@@ -64,6 +64,7 @@ linked_list_badges=$(badges_by_category "linked-list")
 hashmap_badges=$(badges_by_category "hash-table")
 tree_badges=$(badges_by_category "tree")
 heap_badges=$(badges_by_category "heap")
+dp_badges=$(badges_by_category "dynamic-programming")
 
 echo "Generating ${STATS_FILE}" >&2
 
@@ -85,6 +86,8 @@ ${hashmap_badges}
 ${tree_badges}
 #### Heap
 ${heap_badges}
+#### Dynamic Programming
+${dp_badges}
 EOF
 
 exit $?

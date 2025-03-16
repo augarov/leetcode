@@ -29,3 +29,7 @@
 ![easy 0/2](https://progress-bar.xyz/0?title=easy%20&scale=2&suffix=%20%2F%202&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
 ![medium 1/17](https://progress-bar.xyz/1?title=medium%20&scale=17&suffix=%20%2F%2017&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 1/15](https://progress-bar.xyz/1?title=hard%20&scale=15&suffix=%20%2F%2015&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
+#### Dynamic Programming
+![easy 4/7](https://progress-bar.xyz/4?title=easy%20&scale=7&suffix=%20%2F%207&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
+![medium 2/79](https://progress-bar.xyz/2?title=medium%20&scale=79&suffix=%20%2F%2079&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
+![hard 2/58](https://progress-bar.xyz/2?title=hard%20&scale=58&suffix=%20%2F%2058&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
