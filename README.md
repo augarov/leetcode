@@ -2,12 +2,12 @@
 ## Statistics
 ### Total
 ![easy 33/818](https://progress-bar.xyz/33?title=easy%20&scale=818&suffix=%20%2F%20818&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
-![medium 39/1776](https://progress-bar.xyz/39?title=medium%20&scale=1776&suffix=%20%2F%201776&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
+![medium 40/1776](https://progress-bar.xyz/40?title=medium%20&scale=1776&suffix=%20%2F%201776&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 6/800](https://progress-bar.xyz/6?title=hard%20&scale=800&suffix=%20%2F%20800&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
 ### By Category
 #### Array
 ![easy 10/52](https://progress-bar.xyz/10?title=easy%20&scale=52&suffix=%20%2F%2052&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
-![medium 7/104](https://progress-bar.xyz/7?title=medium%20&scale=104&suffix=%20%2F%20104&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
+![medium 8/104](https://progress-bar.xyz/8?title=medium%20&scale=104&suffix=%20%2F%20104&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 0/17](https://progress-bar.xyz/0?title=hard%20&scale=17&suffix=%20%2F%2017&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
 #### String
 ![easy 4/36](https://progress-bar.xyz/4?title=easy%20&scale=36&suffix=%20%2F%2036&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
@@ -31,5 +31,5 @@
 ![hard 1/15](https://progress-bar.xyz/1?title=hard%20&scale=15&suffix=%20%2F%2015&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
 #### Dynamic Programming
 ![easy 4/7](https://progress-bar.xyz/4?title=easy%20&scale=7&suffix=%20%2F%207&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
-![medium 2/79](https://progress-bar.xyz/2?title=medium%20&scale=79&suffix=%20%2F%2079&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
+![medium 3/79](https://progress-bar.xyz/3?title=medium%20&scale=79&suffix=%20%2F%2079&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 2/58](https://progress-bar.xyz/2?title=hard%20&scale=58&suffix=%20%2F%2058&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
