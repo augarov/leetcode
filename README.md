@@ -1,7 +1,7 @@
 # Hi, it's me having fun with LeetCode
 ## Statistics
 ### Total
-![easy 33/818](https://progress-bar.xyz/33?title=easy%20&scale=818&suffix=%20%2F%20818&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
+![easy 34/818](https://progress-bar.xyz/34?title=easy%20&scale=818&suffix=%20%2F%20818&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
 ![medium 40/1776](https://progress-bar.xyz/40?title=medium%20&scale=1776&suffix=%20%2F%201776&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 6/800](https://progress-bar.xyz/6?title=hard%20&scale=800&suffix=%20%2F%20800&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
 ### By Category
@@ -30,6 +30,6 @@
 ![medium 1/17](https://progress-bar.xyz/1?title=medium%20&scale=17&suffix=%20%2F%2017&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 1/15](https://progress-bar.xyz/1?title=hard%20&scale=15&suffix=%20%2F%2015&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
 #### Dynamic Programming
-![easy 4/7](https://progress-bar.xyz/4?title=easy%20&scale=7&suffix=%20%2F%207&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
+![easy 5/7](https://progress-bar.xyz/5?title=easy%20&scale=7&suffix=%20%2F%207&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
 ![medium 3/79](https://progress-bar.xyz/3?title=medium%20&scale=79&suffix=%20%2F%2079&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 2/58](https://progress-bar.xyz/2?title=hard%20&scale=58&suffix=%20%2F%2058&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
