@@ -2,7 +2,7 @@
 ## Statistics
 ### Total
 ![easy 35/822](https://progress-bar.xyz/35?title=easy%20&scale=822&suffix=%20%2F%20822&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
-![medium 43/1782](https://progress-bar.xyz/43?title=medium%20&scale=1782&suffix=%20%2F%201782&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
+![medium 44/1782](https://progress-bar.xyz/44?title=medium%20&scale=1782&suffix=%20%2F%201782&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
 ![hard 6/805](https://progress-bar.xyz/6?title=hard%20&scale=805&suffix=%20%2F%20805&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
 ### By Category
 #### Array
