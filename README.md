@@ -1,9 +1,9 @@
 # Hi, it's me having fun with LeetCode
 ## Statistics
 ### Total
-![easy 35/822](https://progress-bar.xyz/35?title=easy%20&scale=822&suffix=%20%2F%20822&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
-![medium 44/1782](https://progress-bar.xyz/44?title=medium%20&scale=1782&suffix=%20%2F%201782&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
-![hard 6/805](https://progress-bar.xyz/6?title=hard%20&scale=805&suffix=%20%2F%20805&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
+![easy 35/823](https://progress-bar.xyz/35?title=easy%20&scale=823&suffix=%20%2F%20823&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
+![medium 45/1786](https://progress-bar.xyz/45?title=medium%20&scale=1786&suffix=%20%2F%201786&progress_color=4B9E46&color=000000&progress_number_color=F3F70B&width=200)
+![hard 6/806](https://progress-bar.xyz/6?title=hard%20&scale=806&suffix=%20%2F%20806&progress_color=4B9E46&color=000000&progress_number_color=FC4047&width=200)
 ### By Category
 #### Array
 ![easy 10/52](https://progress-bar.xyz/10?title=easy%20&scale=52&suffix=%20%2F%2052&progress_color=4B9E46&color=000000&progress_number_color=21FF0A&width=200)
